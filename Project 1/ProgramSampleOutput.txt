@@ -1,0 +1,448 @@
+run:
+(1) Solve a randomly genereated Puzzle
+(2) Solve a user-input Puzzle
+(3) Large Random Testing
+(4) Test sample cases
+(5) Terminate Program
+2
+Enter a Puzzle-8 String: 
+327184560
+User Puzzle: 327184560
+(1) Solve via heuristic 1 (# of misplaced tiles)
+(2) Solve via heuristic 2 (sum of distances of tiles from goal positions)
+1
+3 2 7
+1 8 4
+5 6 0
+
+3 2 7
+1 8 0
+5 6 4
+
+3 2 7
+1 0 8
+5 6 4
+
+3 2 7
+0 1 8
+5 6 4
+
+3 2 7
+5 1 8
+0 6 4
+
+3 2 7
+5 1 8
+6 0 4
+
+3 2 7
+5 1 8
+6 4 0
+
+3 2 7
+5 1 0
+6 4 8
+
+3 2 0
+5 1 7
+6 4 8
+
+3 0 2
+5 1 7
+6 4 8
+
+3 1 2
+5 0 7
+6 4 8
+
+3 1 2
+5 7 0
+6 4 8
+
+3 1 2
+5 7 8
+6 4 0
+
+3 1 2
+5 7 8
+6 0 4
+
+3 1 2
+5 0 8
+6 7 4
+
+3 1 2
+0 5 8
+6 7 4
+
+3 1 2
+6 5 8
+0 7 4
+
+3 1 2
+6 5 8
+7 0 4
+
+3 1 2
+6 5 8
+7 4 0
+
+3 1 2
+6 5 0
+7 4 8
+
+3 1 2
+6 0 5
+7 4 8
+
+3 1 2
+6 4 5
+7 0 8
+
+3 1 2
+6 4 5
+0 7 8
+
+3 1 2
+0 4 5
+6 7 8
+
+0 1 2
+3 4 5
+6 7 8
+
+Number of steps/depth: 24
+Time(ms) taken: 140
+Search Cost: 19215
+(1) Solve a randomly genereated Puzzle
+(2) Solve a user-input Puzzle
+(3) Large Random Testing
+(4) Test sample cases
+(5) Terminate Program
+2
+Enter a Puzzle-8 String: 
+327184560
+User Puzzle: 327184560
+(1) Solve via heuristic 1 (# of misplaced tiles)
+(2) Solve via heuristic 2 (sum of distances of tiles from goal positions)
+2
+3 2 7
+1 8 4
+5 6 0
+
+3 2 7
+1 8 0
+5 6 4
+
+3 2 7
+1 0 8
+5 6 4
+
+3 2 7
+0 1 8
+5 6 4
+
+3 2 7
+5 1 8
+0 6 4
+
+3 2 7
+5 1 8
+6 0 4
+
+3 2 7
+5 1 8
+6 4 0
+
+3 2 7
+5 1 0
+6 4 8
+
+3 2 0
+5 1 7
+6 4 8
+
+3 0 2
+5 1 7
+6 4 8
+
+3 1 2
+5 0 7
+6 4 8
+
+3 1 2
+5 7 0
+6 4 8
+
+3 1 2
+5 7 8
+6 4 0
+
+3 1 2
+5 7 8
+6 0 4
+
+3 1 2
+5 0 8
+6 7 4
+
+3 1 2
+0 5 8
+6 7 4
+
+3 1 2
+6 5 8
+0 7 4
+
+3 1 2
+6 5 8
+7 0 4
+
+3 1 2
+6 5 8
+7 4 0
+
+3 1 2
+6 5 0
+7 4 8
+
+3 1 2
+6 0 5
+7 4 8
+
+3 1 2
+6 4 5
+7 0 8
+
+3 1 2
+6 4 5
+0 7 8
+
+3 1 2
+0 4 5
+6 7 8
+
+0 1 2
+3 4 5
+6 7 8
+
+Number of steps/depth: 24
+Time(ms) taken: 66
+Search Cost: 2639
+(1) Solve a randomly genereated Puzzle
+(2) Solve a user-input Puzzle
+(3) Large Random Testing
+(4) Test sample cases
+(5) Terminate Program
+1
+Random Puzzle: 760425318
+(1) Solve via heuristic 1 (# of misplaced tiles)
+(2) Solve via heuristic 2 (sum of distances of tiles from goal positions)
+1
+7 6 0
+4 2 5
+3 1 8
+
+7 0 6
+4 2 5
+3 1 8
+
+7 2 6
+4 0 5
+3 1 8
+
+7 2 6
+4 1 5
+3 0 8
+
+7 2 6
+4 1 5
+3 8 0
+
+7 2 6
+4 1 0
+3 8 5
+
+7 2 0
+4 1 6
+3 8 5
+
+7 0 2
+4 1 6
+3 8 5
+
+0 7 2
+4 1 6
+3 8 5
+
+4 7 2
+0 1 6
+3 8 5
+
+4 7 2
+1 0 6
+3 8 5
+
+4 7 2
+1 6 0
+3 8 5
+
+4 7 2
+1 6 5
+3 8 0
+
+4 7 2
+1 6 5
+3 0 8
+
+4 7 2
+1 0 5
+3 6 8
+
+4 0 2
+1 7 5
+3 6 8
+
+0 4 2
+1 7 5
+3 6 8
+
+1 4 2
+0 7 5
+3 6 8
+
+1 4 2
+3 7 5
+0 6 8
+
+1 4 2
+3 7 5
+6 0 8
+
+1 4 2
+3 0 5
+6 7 8
+
+1 0 2
+3 4 5
+6 7 8
+
+0 1 2
+3 4 5
+6 7 8
+
+Number of steps/depth: 22
+Time(ms) taken: 46
+Search Cost: 7096
+(1) Solve a randomly genereated Puzzle
+(2) Solve a user-input Puzzle
+(3) Large Random Testing
+(4) Test sample cases
+(5) Terminate Program
+2
+Enter a Puzzle-8 String: 
+760425318
+User Puzzle: 760425318
+(1) Solve via heuristic 1 (# of misplaced tiles)
+(2) Solve via heuristic 2 (sum of distances of tiles from goal positions)
+2
+7 6 0
+4 2 5
+3 1 8
+
+7 0 6
+4 2 5
+3 1 8
+
+7 2 6
+4 0 5
+3 1 8
+
+7 2 6
+4 1 5
+3 0 8
+
+7 2 6
+4 1 5
+3 8 0
+
+7 2 6
+4 1 0
+3 8 5
+
+7 2 0
+4 1 6
+3 8 5
+
+7 0 2
+4 1 6
+3 8 5
+
+7 1 2
+4 0 6
+3 8 5
+
+7 1 2
+4 6 0
+3 8 5
+
+7 1 2
+4 6 5
+3 8 0
+
+7 1 2
+4 6 5
+3 0 8
+
+7 1 2
+4 0 5
+3 6 8
+
+7 1 2
+0 4 5
+3 6 8
+
+0 1 2
+7 4 5
+3 6 8
+
+1 0 2
+7 4 5
+3 6 8
+
+1 4 2
+7 0 5
+3 6 8
+
+1 4 2
+0 7 5
+3 6 8
+
+1 4 2
+3 7 5
+0 6 8
+
+1 4 2
+3 7 5
+6 0 8
+
+1 4 2
+3 0 5
+6 7 8
+
+1 0 2
+3 4 5
+6 7 8
+
+0 1 2
+3 4 5
+6 7 8
+
+Number of steps/depth: 22
+Time(ms) taken: 1
+Search Cost: 803
+(1) Solve a randomly genereated Puzzle
+(2) Solve a user-input Puzzle
+(3) Large Random Testing
+(4) Test sample cases
+(5) Terminate Program
